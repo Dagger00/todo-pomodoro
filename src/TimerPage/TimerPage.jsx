@@ -24,7 +24,7 @@ const ButtonWrapper = styled.div`
 
 export class TimerPage extends Component {
   state = {
-    standardTime: 3,
+    standardTime: 120,
     work: true,
     started: false,
     title: 'Let\'s work HARD!',
